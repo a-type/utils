@@ -1,0 +1,35 @@
+{
+  "name": "@a-type/utils",
+  "version": "1.0.0",
+  "description": "",
+  "access": "public",
+	"type": "module",
+	"main": "src/index.ts",
+	"module": "src/index.ts",
+	"publishConfig": {
+		"types": "./dist/esm/index.d.ts",
+		"main": "./dist/cjs/index.js",
+		"module": "./dist/esm/index.js",
+		"exports": {
+			".": {
+				"import": "./dist/esm/index.js",
+				"require": "./dist/cjs/index.js"
+			}
+		},
+		"access": "public"
+	},
+	"files": [
+		"dist/"
+	],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+		"prepublish": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "@types/node": "^18.11.7"
+  }
+}
