@@ -4,6 +4,7 @@
 		"noLib": false,
 		"target": "es2017",
 		"sourceMap": true,
+    "declaration": true,
 		"module": "es2022",
 		"moduleResolution": "NodeNext",
 		"lib": ["dom", "esnext", "webworker"],
