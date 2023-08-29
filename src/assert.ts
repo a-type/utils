@@ -6,3 +6,7 @@ export function assert(
     throw new Error(message);
   }
 }
+
+export function nonNilFilter<T>(value: T | null | undefined): value is T {
+  return value != null;
+}
