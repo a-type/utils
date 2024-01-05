@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.0.6
+
+### Patch Changes
+
+- aac9843: Include missing source files
+
 ## 1.0.5
 
 ### Patch Changes
