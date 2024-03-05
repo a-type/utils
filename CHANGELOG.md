@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.0.8
+
+### Patch Changes
+
+- 00843ae: Add formatMinutes
+
 ## 1.0.7
 
 ### Patch Changes
