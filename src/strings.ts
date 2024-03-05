@@ -151,3 +151,14 @@ function fractionToUnicode(numerator: number, denominator: number) {
 
   return `${numerator}/${denominator}`;
 }
+
+export function isUrl(str: string) {
+  return /^https?:\/\//.test(str);
+}
+
+export function urlify(str: string) {
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
