@@ -11,6 +11,12 @@ export function shortenTimeUnits(time: string) {
     .replace(/second/, 'sec');
 }
 
+export function formatMinutes(minutes: number) {
+  const hours = Math.floor(minutes / 60);
+  const min = minutes % 60;
+  return `${hours ? `${hours} hr` : ''}${min ? ` ${min} min` : ''}`;
+}
+
 export function fractionToText(decimal: number) {
   let maxDenominator = 10;
   let sign = 1;
