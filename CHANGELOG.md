@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.0.7
+
+### Patch Changes
+
+- 9c102f5: add more url utils
+
 ## 1.0.6
 
 ### Patch Changes
