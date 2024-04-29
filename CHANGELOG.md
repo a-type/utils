@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.0
+
+### Minor Changes
+
+- 60ad7a1: add eventsubscribr
+
 ## 1.0.8
 
 ### Patch Changes
