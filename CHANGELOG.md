@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.2
+
+### Patch Changes
+
+- afded14: mouse event utils
+
 ## 1.1.1
 
 ### Patch Changes
