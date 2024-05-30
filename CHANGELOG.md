@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.1
+
+### Patch Changes
+
+- aaa0936: add throttle
+
 ## 1.1.0
 
 ### Minor Changes
