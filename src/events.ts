@@ -12,6 +12,7 @@ export class EventSubscriber<
   protected counts: Record<string, number> = {} as any;
   private _disabled = false;
   protected disposed = false;
+  __debug = false;
 
   constructor(private _onAllUnsubscribed?: (event: keyof Events) => void) {}
 
@@ -61,6 +62,9 @@ export class EventSubscriber<
     if (this._disabled) return;
     if (this.subscribers[event]) {
       Object.values(this.subscribers[event]).forEach((c) => c(...args));
+    }
+    if (this.__debug) {
+      console.trace('[EVENT]', event, ...args);
     }
   };
 
