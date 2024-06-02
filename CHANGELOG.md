@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.3
+
+### Patch Changes
+
+- 9a71d72: add debug option to eventsubscriber
+
 ## 1.1.2
 
 ### Patch Changes
