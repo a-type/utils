@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.4
+
+### Patch Changes
+
+- bd9a1ae: add list shfufle
+
 ## 1.1.3
 
 ### Patch Changes
