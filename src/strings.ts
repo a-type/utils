@@ -159,7 +159,7 @@ function fractionToUnicode(numerator: number, denominator: number) {
 }
 
 export function isUrl(str: string) {
-	return URL.canParse(str);
+	return /^https?:\/\//.test(str);
 }
 
 export function urlify(str: string) {
