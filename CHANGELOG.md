@@ -1,5 +1,11 @@
 # @a-type/utils
 
+## 1.1.5
+
+### Patch Changes
+
+- 1f8c8a7: some datastructures
+
 ## 1.1.4
 
 ### Patch Changes
