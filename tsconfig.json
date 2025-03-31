@@ -7,7 +7,7 @@
 		"declaration": true,
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
-		"lib": ["dom", "esnext", "webworker"],
+		"lib": ["es5", "dom", "esnext", "webworker"],
 		"skipLibCheck": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
