@@ -32,7 +32,7 @@ export class ExpiringMap<K, V> {
 			const timeout = setTimeout(() => {
 				this.map.delete(key);
 				this.timeouts.delete(key);
-			}, expiresAt - Date.now());
+			}, expiresAt - Date.now() + 1000); // a bit of buffer just in case
 			this.timeouts.set(key, timeout);
 		}
 	}
