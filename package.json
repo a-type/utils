@@ -4,6 +4,9 @@
 	"description": "",
 	"access": "public",
 	"type": "module",
+	"repository": {
+		"url": "https://github.com/a-type/utils"
+	},
 	"publishConfig": {
 		"types": "./dist/esm/index.d.ts",
 		"module": "./dist/esm/index.js",
