@@ -1,4 +1,5 @@
 export * from './assert.js';
+export * from './awaitProxy.js';
 export * from './datastructures.js';
 export * from './dom.js';
 export * from './events.js';
